@@ -3,7 +3,7 @@
 }
 
 .main-header {
-    min-height: 50px;
+    height: 10%;
     width:  100%;
     background-color: rgba(61, 155, 233, 1);
 }
