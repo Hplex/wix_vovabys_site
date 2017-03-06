@@ -23,6 +23,13 @@ html, body {
 .feature-container {
     padding:3% 0;
     margin: 0 20%;
+    text-align:center;
+}
+.features-list {
+    text-align: left;
+}
+.wrapper-1 {
+    padding: 25px 25px 25px 0;
 }
 /*Шапка*/
 .main-header {
@@ -61,7 +68,7 @@ html, body {
 .features-list {
     font-size: 24px;
     margin: 0;
-    width: 335px;
+
 }
 /*Заголовок партнерского блока*/
 .pairs-block h2 {
