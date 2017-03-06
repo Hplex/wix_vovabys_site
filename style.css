@@ -1,32 +1,45 @@
+/*Центровшик*/
 .container {
     margin: 0 20%;
 }
-
+/*Шапка*/
 .main-header {
-    height: 10%;
+    height: 50px;
     width:  100%;
     background-color: rgba(61, 155, 233, 1);
 }
+/*Слайдер*/
 .main-slide {
     min-height: 360px;
     background-color: #473e30 ;
 }
-h1 {
+/*Заголовок промо блоков*/
+.promo-title {
         font-size: 23px;
         color: #473e30;
 }
-p {
+/*Текс промо блоков*/
+.promo-text {
         font-size: 17px;
         color: #473e30;
        
 }
+/*Блок особенностей*/
 .feature-block {
     width:  100%;
     min-height: 352px;
     background-color:  #E6F5FA;
 }
+/*Лист особенностей*/
+.features-list {
+    font-size: 24px;
+}
+/*Подвал*/
 .main-footer {
     min-height: 50px;
     width:  100%;
     background-color: rgba(61, 155, 233, 1);
+}
+iframe {
+
 }
