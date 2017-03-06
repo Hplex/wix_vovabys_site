@@ -1,5 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*Приклеивание подвала к низу*/
+.page-wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+/*Приклеивание подвала к низу фикс IE*/
+* html .page-wrapper {
+    height: 100%;
+}
+/*Приклеивание подвала к низу, размер футора*/
+.page-buffer {
+    height: 50px;
+}
 /*Центровшик*/
 .container {
+    margin: 0 20%;
+}
+.feature-container {
+    padding:3% 0;
     margin: 0 20%;
 }
 /*Шапка*/
@@ -30,17 +52,77 @@
     min-height: 352px;
     background-color:  #E6F5FA;
 }
+.video-block {
+    background-color: #473e30;
+    width: 480px;
+    height: 277px;
+}
 /*Лист особенностей*/
 .features-list {
     font-size: 24px;
+    margin: 0;
+    width: 335px;
+}
+/*Заголовок партнерского блока*/
+.pairs-block h2 {
+    text-align: center;
+    font-size: 43px;
 }
 /*Подвал*/
 .main-footer {
-    min-height: 50px;
+    height: 50px;
     width:  100%;
     background-color: rgba(61, 155, 233, 1);
 }
 /*Обёртка*/
-.wrapper {
+.wrapper-1,.wrapper-2 {
     display: inline-block;
 }
+/*Адаптация под ширину 1440*/
+@media (max-width: 1440px) {
+
+    .container,.feature-container {
+        margin: 0 12%;
+    }
+}/*Адаптация под ширину 1024*/
+@media (max-width: 1080px) {
+
+    .container.feature-container {
+        margin: 0 10%;
+    }
+    .promo-text {
+        font-size: 21px;
+    }
+}
+/*Адаптация под ширину 768*/
+@media (max-width: 768px) {
+
+    .container,.feature-container {
+        margin:0 5%;
+    }
+
+    .promo-text {
+        font-size: 24px;
+    }
+    .video-block {
+        width: 240px;
+        height: 138px;
+    }
+}
+/*Адаптация под ширину 320*/
+@media (max-width: 320px) {
+
+    .container,.feature-container {
+        margin:0 3%;
+    }
+}
+
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
