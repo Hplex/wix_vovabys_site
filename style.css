@@ -6,7 +6,7 @@ html, body {
 /*Приклеивание подвала к низу*/
 .page-wrapper {
     min-height: 100%;
-    margin-bottom: -50px;
+    margin-bottom: -100px;
 }
 /*Приклеивание подвала к низу фикс IE*/
 * html .page-wrapper {
@@ -14,7 +14,7 @@ html, body {
 }
 /*Приклеивание подвала к низу, размер футора*/
 .page-buffer {
-    height: 50px;
+    height: 100px;
 }
 /*Центровшик*/
 .container {
@@ -90,7 +90,7 @@ html, body {
 
 /*Подвал*/
 .main-footer {
-    height: 50px;
+    height: 100px;
     width:  100%;
     background-color: rgba(61, 155, 233, 1);
 }
@@ -158,16 +158,6 @@ html, body {
         width: 470px;
         height: 267px;
     }
-    .main-footer {
-        height: 85px;
-    }
-    .page-wrapper {
-
-        margin-bottom: -85px;
-    }
-    .page-buffer {
-        height: 85px;
-    }
 }
 /*Адаптация под ширину 480*/
 @media (max-width: 480px) {
@@ -185,24 +175,6 @@ html, body {
     .video-block {
         width: 320px;
         height: 218px;
-    }
-    .main-footer {
-        height: 95px;
-    }
-    .page-wrapper {
-
-        margin-bottom: -95px;
-    }
-    .page-buffer {
-        height: 95px;
-    }
-    .copyright {
-        width: 100%;
-    }
-    .subscribe {
-        width: 100%;
-        text-align: center;
-        margin-top: 10px;
     }
 }
 /*Адаптация под ширину 320*/
@@ -270,4 +242,13 @@ iframe{
     background-repeat: no-repeat;
     background-size: 25px 25px;
     background-color: white;
+}
+.footerpart1 {
+    padding-top: 10px;
+    text-align: center;
+}
+.footerpart2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
