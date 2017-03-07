@@ -33,15 +33,10 @@ html, body {
 }
 /*Шапка*/
 .main-header {
-    height: 50px;
+    height: 80px;
     width:  100%;
     background-color: rgba(61, 155, 233, 1);
 }
-/*Слайдер*/
-/*.main-slider {*/
-    /*min-height: 360px;*/
-    /*background-color: #473e30 ;*/
-/*}*/
 /*Заголовок промо блоков*/
 .promo-title {
         font-size: 23px;
@@ -67,6 +62,11 @@ html, body {
     width: 480px;
     height: 277px;
 }
+iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 /*Лист особенностей*/
 .features-list {
     font-size: 24px;
@@ -75,6 +75,7 @@ html, body {
 }
 /*Заголовок партнерского блока*/
 .pairs-block h2 {
+    margin-bottom: 10px;
     text-align: center;
     font-size: 43px;
     font-family: "Courier New";
@@ -94,21 +95,59 @@ html, body {
     width:  100%;
     background-color: rgba(61, 155, 233, 1);
 }
-.copyright {
-    text-align: center;
-    vertical-align: middle;
+/*Копирайты*/
+.copyright-block {
     padding-top: 10px;
-    width:70%;
-    display: inline-block;
-    font-size: 14px;
+    text-align: center;
 }
-.subscribe {
-    display: inline-block;
-    padding: 0;
-    margin: 0 ;
-    width: 29%;
+
+.social-block {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.copyright-block .nowrap {
+    word-wrap: break-word;
     white-space: nowrap;
 }
+
+.social-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+    background: #bdc3c7;
+    vertical-align: middle;
+}
+.icon-fb {
+    background-image: url("../img/fb.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-color: white;
+}
+.icon-vk {
+    background-image: url("../img/vk.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-color: white;
+}
+.icon-ins {
+    background-image: url("../img/ins.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-color: white;
+}
+.icon-youtube {
+    background-image: url("../img/youtube.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-color: white;
+}
+
 /*Обёртка*/
 .wrapper-1,.wrapper-2 {
     display: inline-block;
@@ -122,7 +161,8 @@ html, body {
     .feature-container {
         margin: 0 5%;
     }
-}/*Адаптация под ширину 925*/
+}
+/*Адаптация под ширину 925*/
 @media (max-width: 925px) {
 
     .container {
@@ -180,10 +220,6 @@ html, body {
 
         height: 120px;
     }
-    .page-wrapper {
-        margin-bottom: 120px;
-
-    }
     .main-footer {
         height: 120px;
     }
@@ -197,77 +233,5 @@ html, body {
 }
 
 
-iframe{
-    display: block;
-    width: 100%;
-    height: 100%;
-}
 
-/*.slider-box{*/
-    /*width: 100%;*/
-    /*height:322px;*/
-    /*overflow:hidden;*/
-/*}*/
-/*.slider{*/
-    /*position:relative;*/
-    /*width:10000px;*/
-    /*height:322px;*/
-/*}*/
-/*.slider img{*/
-    /*float:left;*/
-    /*z-index:0;*/
-/*}*/
 
-.social-icon {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    margin-right: 3px;
-    background: #bdc3c7;
-    vertical-align: middle;
-}
-.icon-fb {
-    background-image: url("../img/fb.png");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-size: 25px 25px;
-    background-color: white;
-}
-.icon-vk {
-    background-image: url("../img/vk.png");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-size: 25px 25px;
-    background-color: white;
-}
-.icon-ins {
-    background-image: url("../img/ins.png");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-size: 25px 25px;
-    background-color: white;
-}
-.icon-youtube {
-    background-image: url("../img/youtube.png");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-size: 25px 25px;
-    background-color: white;
-}
-.footerpart1 {
-    padding-top: 10px;
-    text-align: center;
-}
-.footerpart2 {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.footerpart1 .nowrap {
-    word-wrap: break-word;
-    white-space: nowrap;
-}
-
-main {
-    margin-top: 45px;
-}
