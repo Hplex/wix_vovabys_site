@@ -45,12 +45,15 @@ html, body {
 /*Заголовок промо блоков*/
 .promo-title {
         font-size: 23px;
+        font-family: "PT Serif Caption";
         color: #473e30;
+
 }
 /*Текс промо блоков*/
 .promo-text {
         font-size: 17px;
         color: #473e30;
+        font-family: "Open Sans";
        
 }
 /*Блок особенностей*/
@@ -74,6 +77,9 @@ html, body {
 .pairs-block h2 {
     text-align: center;
     font-size: 43px;
+    font-family: "Courier New";
+    font-style: italic;
+    font-weight: normal;
 }
 .pairs-block .pairs-fix{
     vertical-align: 400%;
@@ -101,8 +107,8 @@ html, body {
     .feature-container {
         margin: 0 5%;
     }
-}/*Адаптация под ширину 1024*/
-@media (max-width: 1080px) {
+}/*Адаптация под ширину 925*/
+@media (max-width: 925px) {
 
     .container {
         margin: 0 10%;
@@ -112,6 +118,11 @@ html, body {
     }
     .feature-container {
         margin: 0 5%;
+    }
+    .video-block {
+        background-color: #473e30;
+        width: 580px;
+        height: 347px;
     }
 }
 /*Адаптация под ширину 768*/
@@ -126,6 +137,11 @@ html, body {
 
     .promo-text {
         font-size: 24px;
+    }
+    .video-block {
+        background-color: #473e30;
+        width: 470px;
+        height: 267px;
     }
 }
 /*Адаптация под ширину 480*/
@@ -142,8 +158,8 @@ html, body {
         font-size: 24px;
     }
     .video-block {
-        width: 240px;
-        height: 138px;
+        width: 320px;
+        height: 218px;
     }
 }
 /*Адаптация под ширину 320*/
@@ -175,6 +191,3 @@ iframe{
     float:left;
     z-index:0;
 }
-
-
-
