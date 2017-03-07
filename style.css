@@ -176,6 +176,17 @@ html, body {
         width: 320px;
         height: 218px;
     }
+    .page-buffer {
+
+        height: 120px;
+    }
+    .page-wrapper {
+        margin-bottom: 120px;
+
+    }
+    .main-footer {
+        height: 120px;
+    }
 }
 /*Адаптация под ширину 320*/
 @media (max-width: 320px) {
@@ -251,4 +262,8 @@ iframe{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.footerpart1 .nowrap {
+    word-wrap: break-word;
+    white-space: nowrap;
 }
