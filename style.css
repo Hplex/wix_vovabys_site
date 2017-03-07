@@ -100,6 +100,14 @@ html, body {
     padding-top: 10px;
     width:70%;
     display: inline-block;
+    font-size: 14px;
+}
+.subscribe {
+    display: inline-block;
+    padding: 0;
+    margin: 0 ;
+    width: 29%;
+    white-space: nowrap;
 }
 /*Обёртка*/
 .wrapper-1,.wrapper-2 {
@@ -188,6 +196,13 @@ html, body {
     .page-buffer {
         height: 95px;
     }
+    .copyright {
+        width: 100%;
+    }
+    .subscribe {
+        width: 100%;
+        text-align: center;
+    }
 }
 /*Адаптация под ширину 320*/
 @media (max-width: 320px) {
@@ -218,13 +233,7 @@ iframe{
     float:left;
     z-index:0;
 }
-.subscribe {
-    display: inline-block;
-    padding: 0;
-    margin: 0 ;
-    width: 29%;
-    white-space: nowrap;
-}
+
 .social-icon {
     display: inline-block;
     width: 25px;
