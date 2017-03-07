@@ -202,6 +202,7 @@ html, body {
     .subscribe {
         width: 100%;
         text-align: center;
+        margin-top: 10px;
     }
 }
 /*Адаптация под ширину 320*/
