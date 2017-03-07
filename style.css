@@ -75,6 +75,13 @@ html, body {
     text-align: center;
     font-size: 43px;
 }
+.pairs-block .pairs-fix{
+    vertical-align: 400%;
+}
+.pairs-block {
+    text-align: center;
+}
+
 /*Подвал*/
 .main-footer {
     height: 50px;
