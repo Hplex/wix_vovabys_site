@@ -3,11 +3,23 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Serif+Caption"/>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     <script type="text/javascript" src="slider.js"></script>
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/liCover.css">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.liCover.js"></script>
+    <script src="js/script.js"></script>
+    <style type="text/css">
+        body {margin: 0;}
+        #slider, .slide {height: 322px; width: 100%;}
+    </style>
 </head>
 <body>
 <div class="page-wrapper">
@@ -23,12 +35,14 @@
         </div>
     </header>
     <!--- Слайдер --->
-    <div class="slider-box">
-        <div class="slider">
+    <div id="slider" class="owl-carousel">
+        <div class="slide">
             <img src="img/slide-1.jpg" alt="">
+        </div>
+        <div class="slide">
             <img src="img/slide-2.jpg" alt="">
         </div>
-    </div>
+    </div><br>
     <!--- Центровщик --->
     <main class="container">
         <!--- Промо заголовк  --->
