@@ -41,6 +41,7 @@ html, body {
 .wrapper-1 {
     padding: 25px 25px 25px 0;
 }
+
 /*Обёртка*/
 .wrapper-1, .wrapper-2 {
     display: inline-block;
@@ -51,6 +52,12 @@ html, body {
     height: 80px;
     width: 100%;
     background-color: rgba(61, 155, 233, 1);
+}
+
+/*Размер слайдера*/
+#slider, .slide {
+    height: 322px;
+    width: 100%;
 }
 
 /*Заголовок промо блоков*/
@@ -106,10 +113,12 @@ iframe {
     font-style: italic;
     font-weight: normal;
 }
+
 /*Центровка елемента в блоке*/
 .pairs-block .pairs-fix {
     vertical-align: 400%;
 }
+
 /*Партнерский*/
 .pairs-block {
     text-align: center;
@@ -127,17 +136,20 @@ iframe {
     padding-top: 10px;
     text-align: center;
 }
+
 /*Фикс переноса в копирайтах*/
 .copyright-block .nowrap {
     word-wrap: break-word;
     white-space: nowrap;
 }
+
 /*Соц.блок*/
 .social-block {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 /*Соц.кнопки*/
 .social-icon {
     display: inline-block;
@@ -179,8 +191,6 @@ iframe {
     background-size: 25px 25px;
     background-color: white;
 }
-
-
 
 /*Адаптация под ширину 1440*/
 @media (max-width: 1440px) {
