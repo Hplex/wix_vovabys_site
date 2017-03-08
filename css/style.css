@@ -3,76 +3,100 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
 /*Приклеивание подвала к низу*/
 .page-wrapper {
     min-height: 100%;
     margin-bottom: -100px;
 }
+
 /*Приклеивание подвала к низу фикс IE*/
 * html .page-wrapper {
     height: 100%;
 }
+
 /*Приклеивание подвала к низу, размер футора*/
 .page-buffer {
     height: 100px;
 }
+
 /*Центровшик*/
 .container {
     margin: 0 20%;
 }
+
+/* Блок с особиностями */
 .feature-container {
-    padding:3% 0;
+    padding: 3% 0;
     margin: 0 20%;
-    text-align:center;
+    text-align: center;
 }
+
+/* Список с особиностями*/
 .features-list {
     text-align: left;
 }
+
+/*Обертка*/
 .wrapper-1 {
     padding: 25px 25px 25px 0;
 }
+/*Обёртка*/
+.wrapper-1, .wrapper-2 {
+    display: inline-block;
+}
+
 /*Шапка*/
 .main-header {
     height: 80px;
-    width:  100%;
+    width: 100%;
     background-color: rgba(61, 155, 233, 1);
 }
+
 /*Заголовок промо блоков*/
 .promo-title {
-        font-size: 23px;
-        font-family: "PT Serif Caption";
-        color: #473e30;
+    font-size: 23px;
+    font-family: "PT Serif Caption";
+    color: #473e30;
 
 }
+
 /*Текс промо блоков*/
 .promo-text {
-        font-size: 17px;
-        color: #473e30;
-        font-family: "Open Sans";
-       
+    font-size: 17px;
+    color: #473e30;
+    font-family: "Open Sans";
+
 }
+
 /*Блок особенностей*/
 .feature-block {
-    width:  100%;
+    width: 100%;
     min-height: 352px;
-    background-color:  #E6F5FA;
+    background-color: #E6F5FA;
 }
+
+/*Видео блок*/
 .video-block {
     background-color: #473e30;
     width: 480px;
     height: 277px;
 }
-iframe{
+
+/*Фрейм с видео*/
+iframe {
     display: block;
     width: 100%;
     height: 100%;
 }
+
 /*Лист особенностей*/
 .features-list {
     font-size: 24px;
     margin: 0;
 
 }
+
 /*Заголовок партнерского блока*/
 .pairs-block h2 {
     margin-bottom: 10px;
@@ -82,9 +106,11 @@ iframe{
     font-style: italic;
     font-weight: normal;
 }
-.pairs-block .pairs-fix{
+/*Центровка елемента в блоке*/
+.pairs-block .pairs-fix {
     vertical-align: 400%;
 }
+/*Партнерский*/
 .pairs-block {
     text-align: center;
 }
@@ -92,25 +118,27 @@ iframe{
 /*Подвал*/
 .main-footer {
     height: 100px;
-    width:  100%;
+    width: 100%;
     background-color: rgba(61, 155, 233, 1);
 }
+
 /*Копирайты*/
 .copyright-block {
     padding-top: 10px;
     text-align: center;
 }
-
+/*Фикс переноса в копирайтах*/
+.copyright-block .nowrap {
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+/*Соц.блок*/
 .social-block {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.copyright-block .nowrap {
-    word-wrap: break-word;
-    white-space: nowrap;
-}
-
+/*Соц.кнопки*/
 .social-icon {
     display: inline-block;
     width: 25px;
@@ -119,6 +147,7 @@ iframe{
     background: #bdc3c7;
     vertical-align: middle;
 }
+
 .icon-fb {
     background-image: url("../img/fb.png");
     background-position: 0% 0%;
@@ -126,6 +155,7 @@ iframe{
     background-size: 25px 25px;
     background-color: white;
 }
+
 .icon-vk {
     background-image: url("../img/vk.png");
     background-position: 0% 0%;
@@ -133,6 +163,7 @@ iframe{
     background-size: 25px 25px;
     background-color: white;
 }
+
 .icon-ins {
     background-image: url("../img/ins.png");
     background-position: 0% 0%;
@@ -140,6 +171,7 @@ iframe{
     background-size: 25px 25px;
     background-color: white;
 }
+
 .icon-youtube {
     background-image: url("../img/youtube.png");
     background-position: 0% 0%;
@@ -148,63 +180,71 @@ iframe{
     background-color: white;
 }
 
-/*Обёртка*/
-.wrapper-1,.wrapper-2 {
-    display: inline-block;
-}
+
+
 /*Адаптация под ширину 1440*/
 @media (max-width: 1440px) {
 
     .container {
         margin: 0 12%;
     }
+
     .feature-container {
         margin: 0 5%;
     }
 }
+
 /*Адаптация под ширину 925*/
 @media (max-width: 925px) {
 
     .container {
         margin: 0 10%;
     }
+
     .promo-text {
         font-size: 21px;
     }
+
     .feature-container {
         margin: 0 5%;
     }
+
     .video-block {
         background-color: #473e30;
         width: 580px;
         height: 347px;
     }
 }
+
 /*Адаптация под ширину 768*/
 @media (max-width: 768px) {
 
     .container {
-        margin:0 5%;
+        margin: 0 5%;
     }
+
     .feature-container {
-        margin:0 0;
+        margin: 0 0;
     }
 
     .promo-text {
         font-size: 24px;
     }
+
     .video-block {
         background-color: #473e30;
         width: 470px;
         height: 267px;
     }
 }
+
 /*Адаптация под ширину 480*/
 @media (max-width: 480px) {
 
     .container {
-        margin:0 5%;
+        margin: 0 5%;
     }
+
     .feature-container {
         margin: 0 5%;
     }
@@ -212,23 +252,27 @@ iframe{
     .promo-text {
         font-size: 24px;
     }
+
     .video-block {
         width: 320px;
         height: 218px;
     }
+
     .page-buffer {
 
         height: 120px;
     }
+
     .main-footer {
         height: 120px;
     }
 }
+
 /*Адаптация под ширину 320*/
 @media (max-width: 320px) {
 
-    .container,.feature-container {
-        margin:0 3%;
+    .container, .feature-container {
+        margin: 0 3%;
     }
 }
 
